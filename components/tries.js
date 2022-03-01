@@ -50,7 +50,7 @@ const compare = (guess, secret) => {
         ) {
             colors.push("yellow")
         } else {
-            colors.push("gray")
+            colors.push("lightgray")
         }
 
     }
