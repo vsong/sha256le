@@ -9,6 +9,8 @@ const addInputField = (parentNode) => {
     inputField.autofocus = "autofocus"
     inputField.size = 64
     inputField.style.fontFamily = "monospace"
+    inputField.style.fontSize = "16px"
+    inputField.style.letterSpacing = "0.55em"
     inputField.placeholder = "sha256"
     inputField.addEventListener("input", (_) => {
         const inputField = document.getElementById("input")
